@@ -1,0 +1,64 @@
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: fit-content;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	padding: 18px 24px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17px;
+	transition: linear .2s;
+
+	svg path {
+		transition: linear .2s;
+	}
+
+	&--white {
+		border-color: #fff;
+		background: rgb(255, 255, 255);
+		color: rgb(32, 32, 32);
+
+		&:hover {
+			background-color: rgb(248, 158, 184);
+			color: #fff;
+			border-color: rgb(248, 158, 184);
+		}
+	}
+
+	&--pink {
+		border-color: rgb(248, 158, 184);
+		background-color: rgb(248, 158, 184);
+		color: #fff;
+
+		svg {
+			margin: 0 0 0 10px;
+		}
+
+		&:hover {
+			background-color: #202020;
+			color: #fff;
+			border-color: #202020;
+		}
+	}
+
+	&--arrow {
+		border: 1px solid rgba(32, 32, 32, 0.2);
+
+		svg {
+			margin: 0 0 0 10px;
+		}
+
+		&:hover {
+			background-color: rgb(248, 158, 184);
+			border-color: rgb(248, 158, 184);
+			color: #fff;
+
+			svg path {
+				stroke: #fff;
+			}
+		}
+	}
+}
