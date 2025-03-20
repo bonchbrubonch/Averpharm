@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+    integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.4/jquery.rateyo.min.css"
+    integrity="sha512-JEUoTOcC35/ovhE1389S9NxeGcVLIqOAEzlpcJujvyUaxvIXJN9VxPX0x1TwSo22jCxz2fHQPS1de8NgUyg+nA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <button class="header__menu-btn">
+          <span></span>
+        </button>
+        <div class="header__box">
+          <nav>
+            <ul>
+              <li>
+                <a href="#">Магазин</a>
+              </li>
+              <li class="header__item-child">
+                <span>Бренди</span>
+                <ul class="header__submenu">
+                  <li><a href="#">Ivatherm</a></li>
+                  <li><a href="#">Byphasse</a></li>
+                  <li><a href="#">Dr.Organic</a></li>
+                  <li><a href="#">LaCabine</a></li>
+                  <li><a href="#">Felicea</a></li>
+                  <li><a href="#">Gskin</a></li>
+                  <li><a href="#">Ecoderma</a></li>
+                  <li><a href="#">Noah</a></li>
+                  <li><a href="#">Synergy Therm Cosmetics</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Типи шкіри</a>
+              </li>
+              <li>
+                <a href="#">Про нас</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__mob-box">
+            <ul class="soc">
+              <li>
+                <a href="#" rel="nofollow noopener noreferrer" target="_blank">
+                  <img src="images/icons/inst.svg" alt="icon">
+                </a>
+              </li>
+              <li>
+                <a href="#" rel="nofollow noopener noreferrer" target="_blank">
+                  <img src="images/icons/youutbe.svg" alt="icon">
+                </a>
+              </li>
+              <li>
+                <a href="#" rel="nofollow noopener noreferrer" target="_blank">
+                  <img src="images/icons/facebook.svg" alt="icon">
+                </a>
+              </li>
+            </ul>
+            <a href="#">+380 (67) 144 20 22</a>
+            <a href="#">zakaz@avepharm.com.ua</a>
+            <p>01010, м. Київ, вул. Івана Мазепи, буд. 10, оф. 104</p>
+          </div>
+        </div>
+        <a href="#" class="header__logo">
+          <img src="images/icons/logo.svg" alt="logo">
+        </a>
+        <div class="header__info">
+          <a class="header__tel" href="#">+380 (67) 144 20 22</a>
+          <button class="header__search-icon">
+            <img src="images/icons/search.svg" alt="search">
+          </button>
+          <a href="#" class="header__basket">
+            <img src="images/icons/basket.svg" alt="basket">
+            <span>2</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="header__search">
+    <div class="container">
+      <form class="header__search-form">
+        <div class="header__input-wrap">
+          <input type="text" placeholder="Пошук" required>
+        </div>
+        <button type="submit"><img src="images/icons/search.svg" alt="search"></button>
+        <div class="header__search-close"><img src="images/icons/close.svg" alt="close"></div>
+      </form>
+      <div class="header__search-inner">
+        <div class="header__search-info">
+          <div class="header__search-info-top">
+            <strong>Результати пошуку “<span>Крем для руксівдслів</span>”:</strong>
+            <a href="#" class="header__search-link">
+              Показати більше
+              <img src="images/icons/arrow-btn.svg" alt="arrow">
+            </a>
+          </div>
+          <p>На жаль, за вашим запитом нічого не знайдено</p>
+        </div>
+        <div class="header__search-list-title">Вас також може зацікавити:</div>
+        <div class="header__search-list">
+          <div class="card">
+            <ul class="card__stickers">
+              <li class="card__sticker-green">
+                1+1=3
+              </li>
+              <li class="card__sticker-grey">
+                New
+              </li>
+            </ul>
+            <div class="card__img">
+              <img class="card__img-one" src="images/content/prod-1.webp" alt="product">
+              <img class="card__img-two" src="images/content/prod-2.webp" alt="product">
+            </div>
+            <div class="card__box">
+              <h6>
+                Крем для чутливої шкіри з ознаками почервоніння та лущення Ivadermaseb
+              </h6>
+              <div class="card__price">
+                <div class="card__price-actual">560,00₴</div>
+              </div>
+              <div class="card__btn-wrap">
+                <button class="btn btn--pink">
+                  Купити
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <ul class="card__stickers">
+              <li class="card__sticker-green">
+                1+1=3
+              </li>
+              <li class="card__sticker-grey">
+                New
+              </li>
+            </ul>
+            <div class="card__img">
+              <img class="card__img-one" src="images/content/prod-1.webp" alt="product">
+              <img class="card__img-two" src="images/content/prod-2.webp" alt="product">
+            </div>
+            <div class="card__box">
+              <h6>
+                Крем для чутливої шкіри з ознаками почервоніння та лущення Ivadermaseb
+              </h6>
+              <div class="card__price">
+                <div class="card__price-actual">560,00₴</div>
+              </div>
+              <div class="card__btn-wrap">
+                <button class="btn btn--pink">
+                  Купити
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <ul class="card__stickers">
+              <li class="card__sticker-green">
+                1+1=3
+              </li>
+              <li class="card__sticker-grey">
+                New
+              </li>
+            </ul>
+            <div class="card__img">
+              <img class="card__img-one" src="images/content/prod-1.webp" alt="product">
+              <img class="card__img-two" src="images/content/prod-2.webp" alt="product">
+            </div>
+            <div class="card__box">
+              <h6>
+                Крем для чутливої шкіри з ознаками почервоніння та лущення Ivadermaseb
+              </h6>
+              <div class="card__price">
+                <div class="card__price-actual">560,00₴</div>
+              </div>
+              <div class="card__btn-wrap">
+                <button class="btn btn--pink">
+                  Купити
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <ul class="card__stickers">
+              <li class="card__sticker-green">
+                1+1=3
+              </li>
+              <li class="card__sticker-grey">
+                New
+              </li>
+            </ul>
+            <div class="card__img">
+              <img class="card__img-one" src="images/content/prod-1.webp" alt="product">
+              <img class="card__img-two" src="images/content/prod-2.webp" alt="product">
+            </div>
+            <div class="card__box">
+              <h6>
+                Крем для чутливої шкіри з ознаками почервоніння та лущення Ivadermaseb
+              </h6>
+              <div class="card__price">
+                <div class="card__price-actual">560,00₴</div>
+              </div>
+              <div class="card__btn-wrap">
+                <button class="btn btn--pink">
+                  Купити
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="wrapper margin-top">
+    <main class="main">
+
+      <div class="container">
+        <div class="breadcrumbs">
+          <div class="breadcrumbs__inner">
+            <ul class="breadcrumbs__list">
+              <li><a href="#">Головна сторінка</a></li>
+              <li><span>Кошик</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <section class="order">
+        <div class="container">
+<div class="order__title-mob">Оформлення замовлення</div>
+          <div class="order__inner">
+            <div class="order__left">
+              <h1 class="title">Оформлення замовлення</h1>
+              <div class="order__left-box">
+                <div class="order__left-title">1 - Контактні дані*</div>
+                <div class="order__md-input">
+                  <div class="input-wrap">
+                    <input type="text" placeholder="Ваше ім’я" required>
+                  </div>
+                  <div class="input-wrap">
+                    <input type="text" placeholder="Ваше прізвище" required>
+                  </div>
+                  <div class="input-wrap">
+                    <input type="text" placeholder="Е-пошта" required>
+                  </div>
+                  <div class="input-wrap">
+                    <input class="phone-mask" type="text" placeholder="+380 (99) 999-99-99" required>
+                  </div>
+                </div>
+              </div>
+              <div class="order__left-box">
+                <div class="order__left-title">2 - Способи доставки*</div>
+                <div class="select-wrap">
+                  <select>
+                    <option value="" disabled selected>Оберіть місто</option>
+                    <option>Місто 1</option>
+                    <option>Місто 2</option>
+                  </select>
+                </div>
+                <div class="order__left-radios">
+                  <div class="form__box">
+                    <input type="radio" name="delivery">
+                    <p>Нова пошта (самовивіз)</p>
+                  </div>
+                  <div class="form__box">
+                    <input type="radio" name="delivery">
+                    <p>Нова пошта (кур’єр)</p>
+                  </div>
+                </div>
+                <div class="select-wrap">
+                  <select>
+                    <option value="" disabled selected>Відділення</option>
+                    <option>Відділення 1</option>
+                    <option>Відділення 2</option>
+                  </select>
+                </div>
+              </div>
+              <div class="order__left-box">
+                <div class="order__left-title">3 - Вибір оплати*</div>
+                <div class="order__left-radios">
+                  <div class="form__box">
+                    <input type="radio" name="delivery">
+                    <p>Оплата банківською картою</p>
+                  </div>
+                  <div class="form__box">
+                    <input type="radio" name="delivery">
+                    <p>Готівка</p>
+                  </div>
+                </div>
+                <button class="btn btn--black">Підтвердити замовлення</button>
+                <p>Ваші персональні дані будуть використовуватися для обробки вашого замовлення, підтримки вашого
+                  досвіду
+                  на цьому сайті та для інших цілей, описаних у нашій <a href="#">політика конфіденційності</a>.</p>
+              </div>
+            </div>
+            <div class="order__right">
+              <div class="order__right-top">
+                <p>Ваший кошик</p>
+                <strong>2580,00₴</strong>
+              </div>
+              <div class="order__item">
+                <div class="order__item-img">
+                  <ul class="card__stickers">
+                    <li class="card__sticker-green">
+                      1+1=3
+                    </li>
+                  </ul>
+                  <img src="images/content/prod-1.webp" alt="img">
+                </div>
+                <div class="order__item-left">
+                  <div class="order__info order__info--green">
+                    Зберіть ще 1 товар для акції
+                  </div>
+                  <h2>Крем для проблемної шкіри з серйозними недоліками та акне «IVAPUR AI», 30 мл</h2>
+                  <div class="order__item-price">
+                    <div class="order__price-actual">560,00₴</div>
+                    <div class="order__price-old">1000,00₴</div>
+                  </div>
+                  <div class="calc">
+                    <button class="calc__minus">
+                      <img src="images/icons/minus.svg" alt="icon">
+                    </button>
+                    <input type="text" value="1" readonly="">
+                    <button class="calc__plus">
+                      <img src="images/icons/plus.svg" alt="icon">
+                    </button>
+                  </div>
+                  <button class="order__item-close">
+                    <img src="images/icons/close.svg" alt="close">
+                  </button>
+                </div>
+              </div>
+              <div class="order__item">
+                <div class="order__item-img">
+                  <ul class="card__stickers">
+                    <li class="card__sticker-orange">
+                      Подарункова акція
+                    </li>
+                  </ul>
+                  <img src="images/content/prod-1.webp" alt="img">
+                </div>
+                <div class="order__item-left">
+                  <div class="order__info order__info--orange">
+                    Додайте у кошик будь-який акційний товар (товари) на суму від 200.00₴, і отримайте подарунок.
+                  </div>
+                  <h2>Крем для проблемної шкіри з серйозними недоліками та акне «IVAPUR AI», 30 мл</h2>
+                  <div class="order__item-price">
+                    <div class="order__price-actual">560,00₴</div>
+                    <div class="order__price-old">1000,00₴</div>
+                  </div>
+                  <div class="calc">
+                    <button class="calc__minus">
+                      <img src="images/icons/minus.svg" alt="icon">
+                    </button>
+                    <input type="text" value="1" readonly="">
+                    <button class="calc__plus">
+                      <img src="images/icons/plus.svg" alt="icon">
+                    </button>
+                  </div>
+                  <button class="order__item-close">
+                    <img src="images/icons/close.svg" alt="close">
+                  </button>
+                </div>
+              </div>
+              <div class="order__item">
+                <div class="order__item-img">
+                  <ul class="card__stickers">
+                    <li class="card__sticker-green">
+                      1+1=3
+                    </li>
+                  </ul>
+                  <img src="images/content/prod-1.webp" alt="img">
+                </div>
+                <div class="order__item-left">
+                  <div class="order__info order__info--green">
+                    <img src="images/icons/check-green.svg" alt="check">
+                    Зберіть ще 1 товар для акції
+                  </div>
+                  <h2>Крем для проблемної шкіри з серйозними недоліками та акне «IVAPUR AI», 30 мл</h2>
+                  <div class="order__item-price">
+                    <div class="order__price-actual">560,00₴</div>
+                    <div class="order__price-old">1000,00₴</div>
+                  </div>
+                  <div class="calc">
+                    <button class="calc__minus">
+                      <img src="images/icons/minus.svg" alt="icon">
+                    </button>
+                    <input type="text" value="1" readonly="">
+                    <button class="calc__plus">
+                      <img src="images/icons/plus.svg" alt="icon">
+                    </button>
+                  </div>
+                  <button class="order__item-close">
+                    <img src="images/icons/close.svg" alt="close">
+                  </button>
+                </div>
+              </div>
+              <div class="order__item">
+                <div class="order__item-img">
+                  <ul class="card__stickers">
+                    <li class="card__sticker-green">
+                      1+1=3
+                    </li>
+                  </ul>
+                  <img src="images/content/prod-1.webp" alt="img">
+                </div>
+                <div class="order__item-left">
+                  <div class="order__info order__info--green">
+                    <img src="images/icons/check-green.svg" alt="check">
+                    Зберіть ще 1 товар для акції
+                  </div>
+                  <h2>Крем для проблемної шкіри з серйозними недоліками та акне «IVAPUR AI», 30 мл</h2>
+                  <div class="order__item-price low-price">
+                    <div class="order__price-actual">0,1₴</div>
+                    <div class="order__price-old">1000,00₴</div>
+                  </div>
+                  <div class="calc">
+                    <button class="calc__minus">
+                      <img src="images/icons/minus.svg" alt="icon">
+                    </button>
+                    <input type="text" value="1" readonly="">
+                    <button class="calc__plus">
+                      <img src="images/icons/plus.svg" alt="icon">
+                    </button>
+                  </div>
+                  <button class="order__item-close">
+                    <img src="images/icons/close.svg" alt="close">
+                  </button>
+                </div>
+              </div>
+              <div class="order__item">
+                <div class="order__item-img">
+                  <img src="images/content/prod-1.webp" alt="img">
+                </div>
+                <div class="order__item-left">
+                  <h2>Крем для проблемної шкіри з серйозними недоліками та акне «IVAPUR AI», 30 мл</h2>
+                  <div class="order__item-price">
+                    <div class="order__price-actual">560,00₴</div>
+                    <div class="order__price-old">1000,00₴</div>
+                  </div>
+                  <div class="calc">
+                    <button class="calc__minus">
+                      <img src="images/icons/minus.svg" alt="icon">
+                    </button>
+                    <input type="text" value="1" readonly="">
+                    <button class="calc__plus">
+                      <img src="images/icons/plus.svg" alt="icon">
+                    </button>
+                  </div>
+                  <button class="order__item-close">
+                    <img src="images/icons/close.svg" alt="close">
+                  </button>
+                </div>
+              </div>
+              <div class="order__right-bot">
+                <div class="order__bot-item">
+                  <p>Підсумок</p>
+                  <p>2500,00₴</p>
+                </div>
+                <div class="order__bot-item">
+                  <p>Доставка у відділення Нової Пошти</p>
+                  <p>80,00 ₴</p>
+                </div>
+                <div class="order__bot-item">
+                <strong>Разом</strong>
+                 <strong class="order__sum">2580,00₴</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__col">
+            <div class="footer__form-title">
+              Дізнавайтесь першими про розпродажі і новинки!
+            </div>
+            <form class="footer__form">
+              <input type="email" type="text" placeholder="Ваш email" required>
+              <button type="submit" class="btn">Підписатися</button>
+            </form>
+          </div>
+          <div class="footer__col">
+            <div class="footer__title">Головне</div>
+            <ul>
+              <li><a href="#">Магазин</a></li>
+              <li><a href="#">Бренди</a></li>
+              <li><a href="#">Типи шкіри</a></li>
+              <li><a href="#">Про нас</a></li>
+              <li><a href="#">Контакти</a></li>
+              <li><a href="#">Карта сайту</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <div class="footer__title">Контакти</div>
+            <a href="#">zakaz@avepharm.com.ua</a>
+            <p>Офіційний дистриб'ютор в Україні ФОП Гольцов Ілля Сергійович </p>
+            <p>01010, м. Київ, вул. Івана Мазепи, буд. 10, оф. 104</p>
+          </div>
+          <div class="footer__col">
+            <div class="footer__title">Документи</div>
+            <a href="#">Політика конфіденційності</a>
+            <a href="#">Публічна оферта</a>
+            <a href="#">Політика оплати та поверхня товару</a>
+            <ul class="soc">
+              <li>
+                <a href="#" rel="nofollow noopener noreferrer" target="_blank">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.99998 7.29134C9.28169 7.29134 8.59281 7.57668 8.0849 8.08459C7.57699 8.5925 7.29165 9.28138 7.29165 9.99967C7.29165 10.718 7.57699 11.4068 8.0849 11.9148C8.59281 12.4227 9.28169 12.708 9.99998 12.708C10.7183 12.708 11.4072 12.4227 11.9151 11.9148C12.423 11.4068 12.7083 10.718 12.7083 9.99967C12.7083 9.28138 12.423 8.5925 11.9151 8.08459C11.4072 7.57668 10.7183 7.29134 9.99998 7.29134Z"
+                      fill="#fff" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M5.64168 2.56833C8.53836 2.24724 11.4617 2.24724 14.3583 2.56833C15.9408 2.74499 17.2167 3.99083 17.4025 5.57916C17.746 8.51637 17.746 11.4836 17.4025 14.4208C17.2167 16.0092 15.9408 17.255 14.3592 17.4325C11.4622 17.7537 8.53864 17.7537 5.64168 17.4325C4.05918 17.255 2.78335 16.0092 2.59751 14.4217C2.25395 11.4842 2.25395 8.51665 2.59751 5.57916C2.78335 3.99083 4.05918 2.74499 5.64168 2.56833ZM14.1667 4.99999C13.9457 4.99999 13.7337 5.08779 13.5774 5.24407C13.4211 5.40035 13.3333 5.61231 13.3333 5.83333C13.3333 6.05434 13.4211 6.2663 13.5774 6.42258C13.7337 6.57886 13.9457 6.66666 14.1667 6.66666C14.3877 6.66666 14.5997 6.57886 14.7559 6.42258C14.9122 6.2663 15 6.05434 15 5.83333C15 5.61231 14.9122 5.40035 14.7559 5.24407C14.5997 5.08779 14.3877 4.99999 14.1667 4.99999ZM6.04168 9.99999C6.04168 8.95018 6.45872 7.94336 7.20105 7.20103C7.94338 6.4587 8.9502 6.04166 10 6.04166C11.0498 6.04166 12.0566 6.4587 12.799 7.20103C13.5413 7.94336 13.9583 8.95018 13.9583 9.99999C13.9583 11.0498 13.5413 12.0566 12.799 12.799C12.0566 13.5413 11.0498 13.9583 10 13.9583C8.9502 13.9583 7.94338 13.5413 7.20105 12.799C6.45872 12.0566 6.04168 11.0498 6.04168 9.99999Z"
+                      fill="#fff" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" rel="nofollow noopener noreferrer" target="_blank">
+                  <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M7.33317 8.49959L11.6582 5.99959L7.33317 3.49959V8.49959ZM16.9665 1.97459C17.0748 2.36626 17.1498 2.89126 17.1998 3.55793C17.2582 4.22459 17.2832 4.79959 17.2832 5.29959L17.3332 5.99959C17.3332 7.82459 17.1998 9.16626 16.9665 10.0246C16.7582 10.7746 16.2748 11.2579 15.5248 11.4663C15.1332 11.5746 14.4165 11.6496 13.3165 11.6996C12.2332 11.7579 11.2415 11.7829 10.3248 11.7829L8.99984 11.8329C5.50817 11.8329 3.33317 11.6996 2.47484 11.4663C1.72484 11.2579 1.2415 10.7746 1.03317 10.0246C0.924837 9.63293 0.849837 9.10793 0.799837 8.44126C0.741504 7.77459 0.716504 7.19959 0.716504 6.69959L0.666504 5.99959C0.666504 4.17459 0.799837 2.83293 1.03317 1.97459C1.2415 1.22459 1.72484 0.74126 2.47484 0.532926C2.8665 0.424593 3.58317 0.349593 4.68317 0.299593C5.7665 0.24126 6.75817 0.21626 7.67484 0.21626L8.99984 0.16626C12.4915 0.16626 14.6665 0.299593 15.5248 0.532926C16.2748 0.74126 16.7582 1.22459 16.9665 1.97459Z"
+                      fill="#fff" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" rel="nofollow noopener noreferrer" target="_blank">
+                  <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M6.66683 10.2497H8.75016L9.5835 6.91638H6.66683V5.24971C6.66683 4.39138 6.66683 3.58305 8.3335 3.58305H9.5835V0.783049C9.31183 0.747215 8.286 0.666382 7.20266 0.666382C4.94016 0.666382 3.3335 2.04721 3.3335 4.58305V6.91638H0.833496V10.2497H3.3335V17.333H6.66683V10.2497Z"
+                      fill="#fff" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bot">
+          <p>© Avepharm 2025</p>
+          <img src="images/icons/pay.svg" alt="icon">
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"
+    integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.4/jquery.rateyo.min.js"
+    integrity="sha512-09bUVOnphTvb854qSgkpY/UGKLW9w7ISXGrN0FR/QdXTkjs0D+EfMFMTB+CGiIYvBoFXexYwGUD5FD8xVU89mw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+    integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/imask@6.0.0"></script>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
