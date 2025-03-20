@@ -244,7 +244,7 @@
 	max-width: 1920px;
 	width: 100%;
 	color: rgb(255, 255, 255);
-	margin: 65px auto 0;
+	margin: 0 auto 0;
 
 	&__slider {
 		position: relative;
@@ -1564,9 +1564,11 @@
 
 .order {
 	padding: 20px 0 120px;
-&__title-mob{
-	display: none;
-}
+
+	&__title-mob {
+		display: none;
+	}
+
 	.title {
 		font-size: 28px;
 		margin: 0 0 40px 0;
@@ -1636,6 +1638,7 @@
 			padding: 10px;
 			background-color: transparent;
 			outline: none;
+			cursor: pointer;
 		}
 	}
 
