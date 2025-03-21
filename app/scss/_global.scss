@@ -396,6 +396,15 @@ body.lock {
 			}
 		}
 	}
+	&--white{
+		li,
+		.breadcrumbs__list li+li::before{
+			color: #fff;
+		}
+		.breadcrumbs__list li:last-child span{
+			color: rgba(#fff, .5);
+		}
+	}
 }
 
 

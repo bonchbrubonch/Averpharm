@@ -37,8 +37,18 @@ $(function () {
     numStars: 5,
     starWidth: "17px",
     readOnly: true,
-     spacing: "3px"
+    spacing: "3px"
   });
+
+  ///////////////
+  if ($(".accordeon").length) {
+    $(".accordeon dd").hide().prev().click(function () {
+      $(this).parents(".accordeon").find("dd").not(this).slideUp().prev().removeClass("active");
+      $(this).next().not(":visible").slideDown().prev().addClass("active");
+      $("dl").removeClass("open");
+      $(this).parent().toggleClass("open");
+    });
+  }
 
 });
 
@@ -67,6 +77,23 @@ var swiper = new Swiper(".swiper-products", {
     1200: { slidesPerView: 4, spaceBetween: 25 },
   }
 });
+// Слайдер продуктів модалка
+$('[data-fancybox]').fancybox({
+  afterShow: function (instance, current) {
+    var swiper = new Swiper(".slider-modal", {
+      spaceBetween: 30,
+      loop: true,
+      breakpoints: {
+        320: { slidesPerView: 2, grid: { rows: 2 }, spaceBetween: 15 },
+        576: { slidesPerView: 2 },
+        800: { slidesPerView: 3 },
+        1200: { slidesPerView: 4, spaceBetween: 25 },
+      }
+    });
+  }
+});
+
+
 // Слайдер клмпонентів
 var swiper = new Swiper(".components__slider", {
   spaceBetween: 20,
@@ -80,6 +107,21 @@ var swiper = new Swiper(".components__slider", {
     576: { slidesPerView: 2 },
     800: { slidesPerView: 3 },
     1200: { slidesPerView: 4, spaceBetween: 25 },
+  }
+});
+
+//слайдер history 
+var swiper = new Swiper(".dss-history__slider", {
+  slidesPerView: 1,
+  spaceBetween: 25,
+  centeredSlides: true,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    768: { slidesPerView: 1.2 },
   }
 });
 

@@ -95,10 +95,76 @@
 		margin: 0 0 10px 0;
 	}
 
+	.dss-skins__list {
+		margin: 0 0 0 -15px;
+	}
+
+	.dss-skins__item {
+		width: calc(25% - 15px);
+		margin: 0 0 15px 15px;
+	}
+
+	.dss-skins__item {
+		background: #f2f1ef;
+
+		.btn {
+			opacity: 1;
+			pointer-events: inherit;
+		}
+	}
+
+	.modal-skin__right img {
+		margin: 0 20px 0 0;
+	}
+
+	.about-intro {
+		height: 650px;
+	}
+
+	.about-intro__left .title {
+		font-size: 52px;
+	}
+
+	.mission {
+		padding: 80px 0;
+	}
+
+	.mission__title {
+		font-size: 30px;
+		max-width: 325px;
+	}
+
+	.mission__title span {
+		font-size: 12px;
+	}
+
+	.mission .span-one {
+		max-width: 135px;
+	}
+
+	.mission .span-two {
+		max-width: 200px;
+	}
+
+	.mission__title img {
+		width: 37px;
+		height: 37px;
+	}
+
+
+	.dss-history__right {
+		max-width: 450px;
+		width: 100%;
+		height: 380px;
+	}
+
 
 }
 
 @media (max-width: 992px) {
+	.dss-skins__item {
+		width: calc(33.33333% - 15px);
+	}
 
 	.header__mob-box,
 	.header__menu-btn {
@@ -608,12 +674,43 @@
 		padding: 40px 0 45px;
 	}
 
+	.order-empty {
+		padding: 240px 0;
+	}
+
+	.order-empty__title {
+		font-size: 36px;
+	}
+
+	.order-empty p {
+		line-height: 130%;
+	}
+
+	.dss-skins {
+		padding: 80px 0;
+	}
+
+	.dss-skins__item {
+		padding: 35px 10px 20px 10px;
+	}
+
+	.about-intro__inner {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.about-intro__left .title {
+		margin: 0 0 30px 0;
+	}
 
 
 
 }
 
 @media (max-width: 768px) {
+	.dss-skins__item {
+		width: calc(50% - 15px);
+	}
 
 	.intro__item {
 		flex-direction: column-reverse;
@@ -946,8 +1043,87 @@
 		text-align: center;
 	}
 
+	.modal-skin__inner {
+		flex-direction: column;
+	}
 
+	.modal-skin__right {
+		flex-direction: column;
+	}
 
+	.modal-skin__right img {
+		margin: 30px 0 25px 0;
+	}
+
+	.modal-skin {
+		padding: 20px 20px !important;
+	}
+
+	.about-intro {
+		padding: 10px 0 60px;
+	}
+
+	.about-intro__left .title {
+		font-size: 36px;
+	}
+
+	.about-intro {
+		height: 750px;
+	}
+
+	.about-intro__right p {
+		font-size: 18px;
+		line-height: 150%;
+	}
+
+	.dss-history {
+		padding: 75px 0 160px;
+	}
+
+	.dss-history__item {
+		flex-direction: column;
+		padding: 40px 20px 20px 20px;
+	}
+
+	.dss-history__left {
+		margin: 0;
+		padding: 10px 20px;
+	}
+
+	.dss-history__left span {
+		display: flex;
+		margin: 0 0 30px 0;
+		font-size: 26px;
+	}
+
+	.dss-history__left-bot {
+		margin: 0 0 20px 0;
+	}
+
+	.dss-history__right {
+		height: 250px;
+		max-width: 100%;
+	}
+
+	.faq__inner {
+		flex-direction: column-reverse;
+	}
+
+	.faq {
+		padding: 75px 0;
+	}
+
+	.faq .title {
+		margin: 0 0 30px 0;
+	}
+
+	.faq__right>p {
+		margin: 0 0 55px 0;
+	}
+
+	.faq__left {
+		margin: 65px 0 0 0;
+	}
 
 
 }
@@ -967,6 +1143,10 @@
 
 	.swiper-products {
 		height: 785px;
+	}
+
+	.slider-modal {
+		height: 890px;
 	}
 
 	.recomendation .btn--arrow {
