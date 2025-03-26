@@ -81,7 +81,7 @@
 	&__info {
 		display: flex;
 		align-items: center;
-		padding: 0 0 0 50px;
+		padding: 0 0 0 100px;
 	}
 
 	&__tel {
@@ -130,7 +130,7 @@
 		right: 0;
 		width: 100%;
 		transform: translateY(-200%);
-		transition: linear .2s;
+		transition: linear .5s;
 		opacity: 0;
 		z-index: 9999;
 		height: calc(100vh - 70px);
@@ -1060,6 +1060,7 @@
 			border: none;
 			cursor: pointer;
 			outline: none;
+			background-color: transparent !important;
 		}
 	}
 
@@ -1636,7 +1637,7 @@
 			border-radius: 2px;
 			height: 54px;
 			padding: 10px;
-			background-color: transparent;
+			background-color: transparent !important;
 			outline: none;
 			cursor: pointer;
 		}
@@ -2542,6 +2543,7 @@
 		text-decoration: underline;
 		text-decoration-color: transparent;
 		transition: linear .2s;
+		font-weight: 500;
 
 		&:hover {
 			text-decoration-color: #fff;

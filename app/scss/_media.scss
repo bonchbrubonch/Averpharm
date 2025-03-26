@@ -183,6 +183,14 @@
 }
 
 @media (max-width: 992px) {
+	.header__logo {
+		transform: translateX(40px);
+	}
+
+	.header__info {
+		padding: 0;
+	}
+
 	.dss-skins__item {
 		width: calc(33.33333% - 15px);
 	}
@@ -510,7 +518,7 @@
 		background-color: transparent;
 		border: 1px solid rgba(32, 32, 32, 0.1);
 		border-radius: 2px;
-
+		color: rgb(32, 32, 32) !important;
 		img {
 			margin: 0 10px 0 0;
 		}
@@ -754,6 +762,9 @@
 }
 
 @media (max-width: 768px) {
+	.header__logo {
+		transform: translateX(0);
+	}
 	.dss-skins__item {
 		width: calc(50% - 15px);
 	}
@@ -1303,7 +1314,8 @@
 
 	.modal {
 		padding: 50px 30px !important;
-		.btn{
+
+		.btn {
 			height: 50px;
 		}
 	}
@@ -1312,7 +1324,8 @@
 		font-size: 36px;
 		margin: 0 0 10px 0;
 	}
-	.modal .input-wrap input{
+
+	.modal .input-wrap input {
 		height: 50px;
 	}
 

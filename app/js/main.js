@@ -50,6 +50,7 @@ $(function () {
     });
   }
 
+
 });
 
 // Слайдер на головній сторінці
@@ -77,22 +78,33 @@ var swiper = new Swiper(".swiper-products", {
     1200: { slidesPerView: 4, spaceBetween: 25 },
   }
 });
-// Слайдер продуктів модалка
-$('[data-fancybox]').fancybox({
-  afterShow: function (instance, current) {
-    var swiper = new Swiper(".slider-modal", {
-      spaceBetween: 30,
-      loop: true,
-      breakpoints: {
-        320: { slidesPerView: 2, grid: { rows: 2 }, spaceBetween: 15 },
-        576: { slidesPerView: 2 },
-        800: { slidesPerView: 3 },
-        1200: { slidesPerView: 4, spaceBetween: 25 },
-      }
-    });
-  }
+$(document).ready(function() {
+  $('[data-fancybox]').fancybox({
+    animationEffect: "zoom",        // Ефект відкриття (можна "fade", "zoom", "slide", або "circular")
+    animationDuration: 800,         // Тривалість анімації в мілісекундах
+    transitionEffect: "fade",       // Ефект переходу між слайдами
+    transitionDuration: 600,        // Тривалість анімації переходу
+    buttons: [
+      "zoom",
+      "close"
+    ],
+    zoomOpacity: "auto",            // Додає анімацію зміни прозорості під час збільшення
+    zoomFromOrigin: true,           // Анімація збільшення з оригінального розміру елемента
+    
+    afterShow: function (instance, current) {
+      var swiper = new Swiper(".slider-modal", {
+        spaceBetween: 30,
+        loop: true,
+        breakpoints: {
+          320: { slidesPerView: 2, grid: { rows: 2 }, spaceBetween: 15 },
+          576: { slidesPerView: 2 },
+          800: { slidesPerView: 3 },
+          1200: { slidesPerView: 4, spaceBetween: 25 },
+        }
+      });
+    }
+  });
 });
-
 
 // Слайдер клмпонентів
 var swiper = new Swiper(".components__slider", {
@@ -286,3 +298,6 @@ if (document.querySelectorAll('.phone-mask').length) {
     });
   });
 }
+
+///////
+

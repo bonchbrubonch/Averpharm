@@ -34,7 +34,20 @@ textarea {
 		font-size: 16px !important;
 	}
 }
+select{
+	color: rgb(32, 32, 32) !important;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	background-image: url("../images/icons/arrow-down.svg");
+	background-size: 12px;
+	background-repeat: no-repeat;
+	background-position: center right 10px;
+    padding-right: 30px !important; /* Простір для стрілки */
 
+}
 /* Приховуємо стрілки для браузерів на базі WebKit (Chrome, Safari, Opera) */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
