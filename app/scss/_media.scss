@@ -43,10 +43,6 @@
 		padding: 30px 25px 5px;
 	}
 
-	.intro__left,
-	.intro__right {
-		padding: 50px 20px 130px 20px;
-	}
 
 	.intro .swiper-pagination {
 		margin-left: 20px;
@@ -64,11 +60,6 @@
 }
 
 @media (max-width: 1200px) {
-
-	.intro__left,
-	.intro__right {
-		padding: 50px 20px 80px 20px;
-	}
 
 	.intro__item {
 		height: 650px;
@@ -763,6 +754,10 @@
 }
 
 @media (max-width: 768px) {
+
+
+
+
 	.header__logo {
 		transform: translateX(0);
 	}
@@ -772,15 +767,11 @@
 	}
 
 	.intro__item {
-		flex-direction: column-reverse;
-		height: auto;
+		height: 750px;
+		padding: 70px 0;
 	}
-
-	.intro__left,
-	.intro__right {
-		min-height: 375px;
+	.intro__box{
 		width: 100%;
-		background-position: top center;
 	}
 
 	.intro__item h1,
@@ -816,6 +807,7 @@
 
 		&--main {
 			padding: 75px 0 85px;
+
 			.btn--arrow {
 				display: flex;
 			}
