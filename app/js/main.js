@@ -72,7 +72,7 @@ var swiper = new Swiper(".swiper-products", {
   },
   loop: true,
   breakpoints: {
-    320: { slidesPerView: 2, grid: { rows: 2 }, spaceBetween: 15 },
+    320: { slidesPerView: 2, spaceBetween: 15 },
     576: { slidesPerView: 2 },
     800: { slidesPerView: 3 },
     1200: { slidesPerView: 4, spaceBetween: 25 },
